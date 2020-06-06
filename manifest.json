@@ -1,0 +1,21 @@
+{
+  "name": "Markscheme",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "exports answers from satchelone quizzes",
+  "icons": { "128" : "icon.png"},
+  "homepage_url": "https://na.com",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Markscheme"
+  },
+  "permissions": [
+    "https://www.satchelone.com/quizzes*",
+    "https://www.satchelone.com/quizzes/*"
+  ]
+}
